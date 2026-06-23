@@ -168,7 +168,6 @@ function openNetworkCard(url) { playClick(); window.open(url, '_blank'); }
 
 function abrirMenu() {
     playClick();
-    // Abre el menú de contacto con tus asesores de forma limpia
     document.getElementById('miMenuContacto').style.display = 'flex';
 }
 
