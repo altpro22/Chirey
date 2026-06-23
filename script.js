@@ -14,7 +14,7 @@ const CONFIG = {
     sitioWeb: "https://www.chirey.mx/",
     facebook: "https://www.facebook.com/chireyaguascalientes",
     instagram: "https://www.instagram.com/chireymexico/",
-    maps: "https://maps.app.goo.gl/557uW3JY2ThC4mHm9", 
+    maps: "https://maps.app.goo.gl/VmVobszjpiGihpZf9", 
     youtubeUrl: "https://www.youtube.com/watch?v=BGpNNMVLHmQ&t=1s",
     textos: {
         cat1: { t: "QUIÉNES SOMOS", c: "Chirey Aguascalientes redefine la movilidad premium en la región, ofreciendo SUVs de alta tecnología, seguridad de vanguardia y un diseño sofisticado que eleva la experiencia de conducción diaria al siguiente nivel." },
@@ -168,6 +168,7 @@ function openNetworkCard(url) { playClick(); window.open(url, '_blank'); }
 
 function abrirMenu() {
     playClick();
+    // Abre el menú de contacto con tus asesores de forma limpia
     document.getElementById('miMenuContacto').style.display = 'flex';
 }
 
